@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import ModelCard from "../components/ModelCard";
 
-const API_BASE = "http://localhost:5000/api/models";
+const API_BASE = "https://ai-market-place-backend.onrender.com/api/models";
 
 const ModelsSection=() =>{
   const [models, setModels] = useState([]);
